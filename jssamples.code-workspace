@@ -14,6 +14,16 @@
 		"workbench.colorTheme": "Monokai",
 		"editor.formatOnSave": true,
 		"liveServer.settings.multiRootWorkspaceName": "jssamples",
-		"liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe"
+		"liveServer.settings.AdvanceCustomBrowserCmdLine": "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe",
+		"[html]": {
+			"editor.suggest.insertMode": "replace",
+			"editor.defaultFormatter": "vscode.html-language-features",
+			"editor.formatOnSave": true,
+		},
+		"[javascript]": {
+			"editor.maxTokenizationLineLength": 2500,
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true,
+		}
 	}
 }
